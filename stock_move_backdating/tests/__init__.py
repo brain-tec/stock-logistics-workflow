@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Author: Joel Grand-Guillaume
-#    Copyright 2012 Camptocamp SA
+#    Copyright (C) 2012 BREMSKERL-REIBBELAGWERKE EMMERLING GmbH & Co. KG
+#    Author Marco Dieckhoff
+#    Copyright (C) 2013 Agile Business Group sagl (<http://www.agilebg.com>)
+#    Copyright (C) 2015 Savoir-faire Linux (<http://www.savoirfairelinux.com>)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,8 +20,9 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from . import create_dispatch
-from . import dispatch_assign_picker
-from . import dispatch_start
-from . import check_assign_all
-from . import cancel_assign_all
+
+from . import test_stock_move_backdating
+
+checks = [
+    test_stock_move_backdating
+]

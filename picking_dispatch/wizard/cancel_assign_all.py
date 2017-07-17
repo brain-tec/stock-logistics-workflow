@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Author: Leonardo Pistone
+#    Author: Guewen Baconnier
 #    Copyright 2014 Camptocamp SA
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -20,27 +20,26 @@
 ##############################################################################
 
 from openerp.osv import orm
+from openerp.tools.translate import _
 
 
-class ComputeDeliveryDateByProductWizard(orm.TransientModel):
+class cancel_assign_all(orm.TransientModel):
+    _name = 'picking.dispatch.cancel.assign.all'
+    _description = 'Picking Dispatch Cancel Availability'
 
-    _name = 'compute.delivery.date.by.product.wizard'
+    def cancel_availability(self, cr, uid, ids, context=None):
+        if context is None:
+            context = {}
 
-    def do_compute(self, cr, uid, ids, context=None):
-        pick_obj = self.pool['stock.picking.out']
-        product_obj = self.pool['product.product']
-        messages = {}
+        dispatch_ids = context.get('active_ids')
+        if not dispatch_ids:
+            raise orm.except_orm(
+                _('Error'),
+                _('No selected dispatch'))
 
-        product_ids = context['active_ids']
-        for product in product_obj.browse(cr, uid, product_ids,
-                                          context=context):
-            # If a product updates an already-updated picking, overwrite
-            # the message
-            messages.update(
-                pick_obj.compute_delivery_dates(cr, uid, product,
-                                                context=context)
-            )
-
-        # Publish messages on pickings
-        pick_obj.picking_notify(cr, uid, messages, context=context)
-        return True
+        move_obj = self.pool['stock.move']
+        move_ids = move_obj.search(
+            cr, uid, [('dispatch_id', 'in', dispatch_ids),
+                      ('state', '=', 'assigned')], context=context)
+        move_obj.cancel_assign(cr, uid, move_ids, context=context)
+        return {'type': 'ir.actions.act_window_close'}
