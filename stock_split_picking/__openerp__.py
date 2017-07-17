@@ -20,7 +20,7 @@
 #
 {'name': 'Split picking',
  'summary': 'Split a picking in two unconfirmed pickings',
- 'version': '1.0',
+ 'version': '8.0.1.0.0',
  'author': "Camptocamp,Odoo Community Association (OCA)",
  'maintainer': 'Camptocamp',
  'license': 'AGPL-3',
@@ -31,7 +31,8 @@
  'data': ['view/stock_partial_picking.xml'],
  'demo': [],
  'test': ['test/test_picking_split.yml',
-          'test/test_assigned_picking_split.yml'],
+          'test/test_assigned_picking_split.yml',
+          'test/test_picking_split_two_move_lines.yml'],
  'installable': True,
  'auto_install': False,
  }
