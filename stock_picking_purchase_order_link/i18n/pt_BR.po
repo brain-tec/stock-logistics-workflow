@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* product_cost_price_avco_sync
+#	* stock_picking_purchase_order_link
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-06-23 03:19+0000\n"
+"PO-Revision-Date: 2020-06-23 16:19+0000\n"
 "Last-Translator: Fernando Colus <fcolus1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.10\n"
 
-#. module: product_cost_price_avco_sync
-#: model:ir.model,name:product_cost_price_avco_sync.model_stock_move
-msgid "Stock Move"
-msgstr "Movimentação de Estoque"
+#. module: stock_picking_purchase_order_link
+#: model_terms:ir.ui.view,arch_db:stock_picking_purchase_order_link.view_picking_form
+msgid "Purchase Order"
+msgstr "Ordem de Compra"
 
-#. module: product_cost_price_avco_sync
-#: model:ir.model,name:product_cost_price_avco_sync.model_stock_picking
+#. module: stock_picking_purchase_order_link
+#: model:ir.model,name:stock_picking_purchase_order_link.model_stock_picking
 msgid "Transfer"
 msgstr "Transferência"
