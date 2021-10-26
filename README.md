@@ -36,6 +36,7 @@ addon | version | maintainers | summary
 [stock_picking_cancel_reason](stock_picking_cancel_reason/) | 14.0.1.0.0 |  | Stock Picking Cancel Reason
 [stock_picking_filter_lot](stock_picking_filter_lot/) | 14.0.1.0.1 |  | In picking out lots' selection, filter lots based on their location
 [stock_picking_group_by_partner_by_carrier](stock_picking_group_by_partner_by_carrier/) | 14.0.1.1.1 |  | Stock Picking: group by partner and carrier
+[stock_picking_group_by_partner_by_carrier_by_date](stock_picking_group_by_partner_by_carrier_by_date/) | 14.0.1.0.0 |  | Stock Picking: group by partner and carrier and scheduled date
 [stock_picking_invoice_link](stock_picking_invoice_link/) | 14.0.1.0.0 |  | Adds link between pickings and invoices
 [stock_picking_line_sequence](stock_picking_line_sequence/) | 14.0.1.0.0 |  | Manages the order of stock moves by displaying its sequence
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 14.0.1.0.0 |  | Link between picking and purchase order
@@ -49,7 +50,7 @@ addon | version | maintainers | summary
 [stock_quant_package_dimension_total_weight_from_packaging](stock_quant_package_dimension_total_weight_from_packaging/) | 14.0.1.1.0 |  | Estimated weight of a package
 [stock_quant_package_product_packaging](stock_quant_package_product_packaging/) | 14.0.1.0.0 |  | Use product packagings on packages
 [stock_restrict_lot](stock_restrict_lot/) | 14.0.1.1.1 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Base module that add back the concept of restrict lot on stock move
-[stock_return_request](stock_return_request/) | 14.0.1.0.0 |  | Stock Return Request
+[stock_return_request](stock_return_request/) | 14.0.1.0.1 |  | Stock Return Request
 [stock_split_picking](stock_split_picking/) | 14.0.1.0.0 |  | Split a picking in two not transferred pickings
 [stock_valuation_layer_by_category](stock_valuation_layer_by_category/) | 14.0.1.0.0 |  | Display stock valuation layer by category
 
