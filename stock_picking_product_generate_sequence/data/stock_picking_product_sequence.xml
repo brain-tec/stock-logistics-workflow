@@ -1,0 +1,11 @@
+<odoo noupdate="1">
+    <record id="seq_stock_picking_product" model="ir.sequence">
+        <field name="name">Stock Picking Product</field>
+        <field name="code">stock.picking.product</field>
+        <field name="prefix">SPP/</field>
+        <field name="padding">8</field>
+        <field name="number_next">1</field>
+        <field name="number_increment">1</field>
+        <field name="company_id" eval="False"/>
+    </record>
+</odoo>
