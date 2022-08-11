@@ -36,4 +36,3 @@ class ProductTemplate(models.Model):
             )
         if regex_match(pattern, self.serial_lot) is None:
             raise UserError(_("The sequence format is not correct"))
-
