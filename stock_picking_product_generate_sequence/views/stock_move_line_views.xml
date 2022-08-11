@@ -16,7 +16,9 @@
                     title="Creates a new serial/lot number"
                     groups="stock.group_production_lot"
                     attrs="{
-                        'column_invisible': [('parent.show_lots_text', '=', True)],
+                        'column_invisible': [
+                            ('parent.show_lots_text', '=', True)
+                            ],
                         'invisible': [
                             '|',
                             '|',
@@ -24,7 +26,12 @@
                             ('lots_visible', '=', False),
                             ('lot_id', '!=', False),
                             ('picking_code', '!=', 'incoming'),
-                            ('state', 'not in', ['draft', 'assigned', 'waiting', 'partially_available'])
+                            ('state', 'not in', [
+                                'draft',
+                                'assigned',
+                                'waiting',
+                                'partially_available',
+                                ])
                             ]
                          }"
                 />

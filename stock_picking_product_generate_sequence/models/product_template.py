@@ -15,9 +15,9 @@ class ProductTemplate(models.Model):
 
     serial_lot = fields.Char(
         string="Sequence Product",
-        help="Create a sequence for product. Remember sequence contains one character block and one numeric block. "
-        "For the numeric part of the sequence, 0 must be used to create the padding. "
-        "E.g.: TEST/00000 (padding is 5)"
+        help="Create a sequence for product. Remember sequence contains one character "
+        "block and one numeric block. For the numeric part of the sequence, 0 must be "
+        "used to create the padding. E.g.: TEST/00000 (padding is 5)",
     )
 
     @api.onchange("serial_lot")
@@ -27,7 +27,10 @@ class ProductTemplate(models.Model):
         global_sequence = self.env.ref(
             "stock_picking_product_generate_sequence.seq_stock_picking_product"
         )
-        if split_sequence_product[0].casefold() == str(global_sequence.prefix).casefold():
+        if (
+            split_sequence_product[0].casefold()
+            == str(global_sequence.prefix).casefold()
+        ):
             raise UserError(
                 _("The prefix sequence is the same as for the standard product")
             )

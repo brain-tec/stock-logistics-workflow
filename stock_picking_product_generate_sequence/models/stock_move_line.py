@@ -35,10 +35,10 @@ class StockMoveLine(models.Model):
                 [
                     ("company_id", "=", company.id),
                     ("product_id", "=", product.id),
-                    ("name", "=ilike", "%s%%" % prefix)
+                    ("name", "=ilike", "%s%%" % prefix),
                 ],
                 limit=1,
-                order="id DESC"
+                order="id DESC",
             )
 
             if last_serial:
