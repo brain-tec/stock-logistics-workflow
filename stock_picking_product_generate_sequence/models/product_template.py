@@ -36,3 +36,21 @@ class ProductTemplate(models.Model):
             )
         if regex_match(pattern, self.serial_lot) is None:
             raise UserError(_("The sequence format is not correct"))
+
+    @api.constrains("serial_lot")
+    def _check_serial_lot(self):
+        pattern = "(?:^\\D{1,}\\d{1,}$)"
+        global_sequence = self.env.ref(
+            "stock_picking_product_generate_sequence.seq_stock_picking_product"
+        )
+        for serial in self:
+            split_serial_product = regex_split(r"(\d+)", serial.serial_lot)
+            if (
+                split_serial_product[0].casefold()
+                == str(global_sequence.prefix).casefold()
+            ):
+                raise UserError(
+                    _("The prefix sequence is the same as for the standard product")
+                )
+            if regex_match(pattern, serial.serial_lot) is None:
+                raise UserError(_("The sequence format is not correct"))
