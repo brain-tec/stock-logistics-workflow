@@ -6,7 +6,8 @@
 ##############################################################################
 from re import split as regex_split
 
-from odoo import api, models
+from odoo import _, api, models
+from odoo.exceptions import UserError
 
 
 class StockMoveLine(models.Model):
@@ -43,10 +44,13 @@ class StockMoveLine(models.Model):
 
             if last_serial:
                 last_serial_splitted = regex_split(r"(\d+)", last_serial.name)
-                last_serial_prefix = last_serial_splitted[0]
-                last_serial_number = int(last_serial_splitted[1])
-                return "".join(
-                    [last_serial_prefix, str(last_serial_number + 1).zfill(padding)]
-                )
+                if last_serial_splitted[0] and last_serial_splitted[1]:
+                    last_serial_prefix = last_serial_splitted[0]
+                    last_serial_number = int(last_serial_splitted[1])
+                    return "".join(
+                        [last_serial_prefix, str(last_serial_number + 1).zfill(padding)]
+                    )
+                else:
+                    raise UserError(_("The sequence format is not correct"))
             return "".join([prefix, str(initial_number + 1).zfill(padding)])
         return False
