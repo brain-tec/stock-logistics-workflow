@@ -63,7 +63,8 @@ addon | version | maintainers | summary
 [stock_picking_back2draft](stock_picking_back2draft/) | 13.0.1.0.0 |  | Reopen cancelled pickings
 [stock_picking_backorder_strategy](stock_picking_backorder_strategy/) | 13.0.1.0.1 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) [![mgosai](https://github.com/mgosai.png?size=30px)](https://github.com/mgosai) | Picking backordering strategies
 [stock_picking_batch_extended](stock_picking_batch_extended/) | 13.0.1.3.0 | [![gurneyalex](https://github.com/gurneyalex.png?size=30px)](https://github.com/gurneyalex) [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) [![i-vyshnevska](https://github.com/i-vyshnevska.png?size=30px)](https://github.com/i-vyshnevska) | Allows manage a lot of pickings in batch
-[stock_picking_batch_extended_account](stock_picking_batch_extended_account/) | 13.0.1.1.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Generates invoices when batch is set to Done state
+[stock_picking_batch_extended_account](stock_picking_batch_extended_account/) | 13.0.1.1.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Generates invoices when batch is set to Done state
+[stock_picking_customer_ref](stock_picking_customer_ref/) | 13.0.1.0.0 |  | This module displays the sale reference/description in the pickings
 [stock_picking_filter_lot](stock_picking_filter_lot/) | 13.0.1.0.1 |  | In picking out lots' selection, filter lots based on their location
 [stock_picking_group_by_partner_by_carrier](stock_picking_group_by_partner_by_carrier/) | 13.0.1.10.2 |  | Stock Picking: group by partner and carrier
 [stock_picking_group_by_partner_by_carrier_by_date](stock_picking_group_by_partner_by_carrier_by_date/) | 13.0.1.1.1 |  | Stock Picking: group by partner and carrier and scheduled date
@@ -78,7 +79,7 @@ addon | version | maintainers | summary
 [stock_picking_product_availability_inline](stock_picking_product_availability_inline/) | 13.0.1.1.1 |  | Show product availability in product drop-down in stock picking form view.
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 13.0.1.0.0 |  | Link between picking and purchase order
 [stock_picking_restrict_cancel_with_orig_move](stock_picking_restrict_cancel_with_orig_move/) | 13.0.1.0.1 |  | Restrict cancellation of dest moves according to origin.
-[stock_picking_return_restricted_qty](stock_picking_return_restricted_qty/) | 13.0.1.0.0 |  | Restrict the return to delivered quantity
+[stock_picking_return_restricted_qty](stock_picking_return_restricted_qty/) | 13.0.1.0.1 |  | Restrict the return to delivered quantity
 [stock_picking_sale_order_link](stock_picking_sale_order_link/) | 13.0.1.0.1 |  | Link between picking and sale order
 [stock_picking_send_by_mail](stock_picking_send_by_mail/) | 13.0.1.2.0 |  | Send stock picking by email
 [stock_picking_show_backorder](stock_picking_show_backorder/) | 13.0.1.0.1 |  | Provides a new field on stock pickings, allowing to display the corresponding backorders.
