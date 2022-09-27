@@ -21,20 +21,27 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[delivery_procurement_group_carrier](delivery_procurement_group_carrier/) | 15.0.1.0.0 |  | Delivery Procurement Group Carrier
+[sale_line_returned_qty](sale_line_returned_qty/) | 15.0.1.0.0 |  | Track returned quantity of sale order lines.
 [stock_no_negative](stock_no_negative/) | 15.0.1.0.0 |  | Disallow negative stock levels by default
+[stock_owner_restriction](stock_owner_restriction/) | 15.0.1.0.0 |  | Do not reserve quantity with assigned owner
+[stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 15.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
 [stock_picking_back2draft](stock_picking_back2draft/) | 15.0.1.0.1 |  | Reopen cancelled pickings
 [stock_picking_filter_lot](stock_picking_filter_lot/) | 15.0.1.0.0 |  | In picking out lots' selection, filter lots based on their location
 [stock_picking_info_lot](stock_picking_info_lot/) | 15.0.1.0.0 |  | Add lot information on Stock Transfer lines
-[stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 15.0.1.0.0 |  | Link between picking and purchase order
+[stock_picking_mass_action](stock_picking_mass_action/) | 15.0.1.0.0 |  | Stock Picking Mass Action
+[stock_picking_product_assortment](stock_picking_product_assortment/) | 15.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Stock Picking Product Assortment
+[stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 15.0.1.0.1 |  | Link between picking and purchase order
 [stock_picking_return_restricted_qty](stock_picking_return_restricted_qty/) | 15.0.1.0.0 |  | Restrict the return to delivered quantity
 [stock_picking_sale_order_link](stock_picking_sale_order_link/) | 15.0.1.0.2 |  | Link between picking and sale order
-[stock_picking_send_by_mail](stock_picking_send_by_mail/) | 15.0.1.0.0 |  | Send stock picking by email
+[stock_picking_send_by_mail](stock_picking_send_by_mail/) | 15.0.1.0.1 |  | Send stock picking by email
+[stock_picking_show_backorder](stock_picking_show_backorder/) | 15.0.1.0.1 |  | Provides a new field on stock pickings, allowing to display the corresponding backorders.
 [stock_picking_show_return](stock_picking_show_return/) | 15.0.1.0.0 |  | Show returns on stock pickings
-[stock_picking_whole_scrap](stock_picking_whole_scrap/) | 15.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Create whole scrap from a picking for move lines
+[stock_picking_whole_scrap](stock_picking_whole_scrap/) | 15.0.1.0.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Create whole scrap from a picking for move lines
 [stock_production_lot_active](stock_production_lot_active/) | 15.0.1.0.2 | [![ThomasBinsfeld](https://github.com/ThomasBinsfeld.png?size=30px)](https://github.com/ThomasBinsfeld) | Allow to archive/unarchive a lot.
 [stock_push_delay](stock_push_delay/) | 15.0.1.0.0 |  | Manual evaluation of Push rules
-[stock_restrict_lot](stock_restrict_lot/) | 15.0.0.0.1 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Base module that add back the concept of restrict lot on stock move
-[stock_split_picking](stock_split_picking/) | 15.0.1.0.0 |  | Split a picking in two not transferred pickings
+[stock_restrict_lot](stock_restrict_lot/) | 15.0.0.0.2 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Base module that add back the concept of restrict lot on stock move
+[stock_split_picking](stock_split_picking/) | 15.0.1.1.0 |  | Split a picking in two not transferred pickings
 
 [//]: # (end addons)
 
