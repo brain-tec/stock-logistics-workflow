@@ -23,6 +23,22 @@ class StockMoveLine(models.Model):
                 or self.env["ir.sequence"].next_by_code("stock.picking.product"),
             }
         )
+        if self.env.context.get('keep_open_wizard'):
+            return self.move_id.action_show_details()
+
+    def action_copy_product_serial(self):
+        is_line_after = False
+        for move_line in self.move_id.move_line_ids:
+            if move_line == self:
+                is_line_after = True
+            elif is_line_after:
+                if not move_line.lot_id:
+                    move_line.lot_id = self.lot_id
+                else:
+                    # when one of the next lines has already a lot, we stop there
+                    break
+        if self.env.context.get('keep_open_wizard'):
+            return self.move_id.action_show_details()
 
     @api.model
     def _get_next_serial(self, company, product):
