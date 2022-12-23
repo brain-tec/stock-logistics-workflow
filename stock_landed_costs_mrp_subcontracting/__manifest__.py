@@ -4,13 +4,13 @@
     "name": "Stock Landed Costs MRP Subcontracting",
     "summary": "When using Subcontracting, use the incoming shipment in "
     "landed costs",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.1.0",
     "category": "Warehouse Management",
     "website": "https://github.com/OCA/stock-logistics-workflow",
     "author": "ForgeFlow, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["mrp_subcontracting", "stock_landed_costs"],
+    "depends": ["mrp_subcontracting_account", "stock_landed_costs"],
     "post_init_hook": "post_init_hook",
 }
