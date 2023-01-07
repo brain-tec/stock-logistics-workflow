@@ -30,6 +30,7 @@ addon | version | maintainers | summary
 [purchase_stock_picking_invoice_link](purchase_stock_picking_invoice_link/) | 14.0.1.1.0 |  | Adds link between purchases, pickings and invoices
 [sale_line_returned_qty](sale_line_returned_qty/) | 14.0.1.0.0 |  | Track returned quantity of sale order lines.
 [sale_line_returned_qty_mrp](sale_line_returned_qty_mrp/) | 14.0.1.0.1 |  | Track returned quantity of sale order lines for BoM products.
+[sale_order_global_stock_route](sale_order_global_stock_route/) | 14.0.1.0.1 |  | Add the possibility to choose one warehouse path for an order
 [sale_stock_mto_as_mts_orderpoint](sale_stock_mto_as_mts_orderpoint/) | 14.0.1.0.1 |  | Materialize need from MTO route through orderpoint
 [stock_auto_move](stock_auto_move/) | 14.0.1.0.0 |  | Automatic Move Processing
 [stock_delivery_note](stock_delivery_note/) | 14.0.1.0.1 |  | This module allows to fill in a delivery note that will be displayed on delivery report
@@ -55,7 +56,7 @@ addon | version | maintainers | summary
 [stock_picking_group_by_partner_by_carrier](stock_picking_group_by_partner_by_carrier/) | 14.0.1.4.2 |  | Stock Picking: group by partner and carrier
 [stock_picking_group_by_partner_by_carrier_by_date](stock_picking_group_by_partner_by_carrier_by_date/) | 14.0.1.0.1 |  | Stock Picking: group by partner and carrier and scheduled date
 [stock_picking_import_serial_number](stock_picking_import_serial_number/) | 14.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Import S/N from excel file for incoming pickings
-[stock_picking_invoice_link](stock_picking_invoice_link/) | 14.0.1.2.0 |  | Adds link between pickings and invoices
+[stock_picking_invoice_link](stock_picking_invoice_link/) | 14.0.1.2.1 |  | Adds link between pickings and invoices
 [stock_picking_line_sequence](stock_picking_line_sequence/) | 14.0.1.0.0 |  | Manages the order of stock moves by displaying its sequence
 [stock_picking_mass_action](stock_picking_mass_action/) | 14.0.1.0.2 |  | Stock Picking Mass Action
 [stock_picking_product_link](stock_picking_product_link/) | 14.0.1.0.0 | [![robinkeunen](https://github.com/robinkeunen.png?size=30px)](https://github.com/robinkeunen) | Adds a "Product" smart button on stock pickings.
