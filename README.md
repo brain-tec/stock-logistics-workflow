@@ -32,6 +32,7 @@ addon | version | maintainers | summary
 [sale_line_returned_qty_mrp](sale_line_returned_qty_mrp/) | 14.0.1.0.1 |  | Track returned quantity of sale order lines for BoM products.
 [sale_order_global_stock_route](sale_order_global_stock_route/) | 14.0.1.0.1 |  | Add the possibility to choose one warehouse path for an order
 [sale_stock_mto_as_mts_orderpoint](sale_stock_mto_as_mts_orderpoint/) | 14.0.1.0.1 |  | Materialize need from MTO route through orderpoint
+[stock_account_product_run_fifo_hook](stock_account_product_run_fifo_hook/) | 14.0.1.0.1 |  | Add more flexibility in the run fifo method.
 [stock_auto_move](stock_auto_move/) | 14.0.1.0.0 |  | Automatic Move Processing
 [stock_delivery_note](stock_delivery_note/) | 14.0.1.0.1 |  | This module allows to fill in a delivery note that will be displayed on delivery report
 [stock_landed_costs_mrp_subcontracting](stock_landed_costs_mrp_subcontracting/) | 14.0.1.1.0 |  | When using Subcontracting, use the incoming shipment in landed costs
@@ -39,7 +40,7 @@ addon | version | maintainers | summary
 [stock_lot_on_hand_first](stock_lot_on_hand_first/) | 14.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Allows to display lots on hand first in M2o fields
 [stock_lot_product_qty_search](stock_lot_product_qty_search/) | 14.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Allows to search on Quantity field of Lot/Serial Numbers
 [stock_lot_production_date](stock_lot_production_date/) | 14.0.1.0.0 |  | Stock Lot Production Date
-[stock_lot_scrap](stock_lot_scrap/) | 14.0.1.0.1 |  | This module adds a button in Production Lot/Serial Number view form to Scrap all products contained.
+[stock_lot_scrap](stock_lot_scrap/) | 14.0.1.0.2 |  | This module adds a button in Production Lot/Serial Number view form to Scrap all products contained.
 [stock_move_assign_picking_hook](stock_move_assign_picking_hook/) | 14.0.1.1.1 |  | Stock Move picking assignment hook
 [stock_move_change_source_location](stock_move_change_source_location/) | 14.0.1.0.0 |  | This module allows you to change the source location of a stock move from the picking
 [stock_move_forced_lot](stock_move_forced_lot/) | 14.0.1.0.0 |  | This module allows you to set a lot_id in a procurement to force the stock move generated to only reserve the selected lot.
@@ -51,8 +52,9 @@ addon | version | maintainers | summary
 [stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 14.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
 [stock_picking_back2draft](stock_picking_back2draft/) | 14.0.1.0.0 |  | Reopen cancelled pickings
 [stock_picking_backorder_strategy](stock_picking_backorder_strategy/) | 14.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) [![mgosai](https://github.com/mgosai.png?size=30px)](https://github.com/mgosai) | Picking backordering strategies
-[stock_picking_batch_extended](stock_picking_batch_extended/) | 14.0.1.0.0 | [![gurneyalex](https://github.com/gurneyalex.png?size=30px)](https://github.com/gurneyalex) [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) [![i-vyshnevska](https://github.com/i-vyshnevska.png?size=30px)](https://github.com/i-vyshnevska) | Allows manage a lot of pickings in batch
+[stock_picking_batch_extended](stock_picking_batch_extended/) | 14.0.1.0.1 | [![gurneyalex](https://github.com/gurneyalex.png?size=30px)](https://github.com/gurneyalex) [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) [![i-vyshnevska](https://github.com/i-vyshnevska.png?size=30px)](https://github.com/i-vyshnevska) | Allows manage a lot of pickings in batch
 [stock_picking_cancel_reason](stock_picking_cancel_reason/) | 14.0.1.0.0 |  | Stock Picking Cancel Reason
+[stock_picking_default_planned_transfer](stock_picking_default_planned_transfer/) | 14.0.1.0.1 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) | Set Planned Transfer as Default from Inventory Views
 [stock_picking_filter_lot](stock_picking_filter_lot/) | 14.0.2.0.0 |  | In picking out lots' selection, filter lots based on their location
 [stock_picking_group_by_partner_by_carrier](stock_picking_group_by_partner_by_carrier/) | 14.0.1.4.2 |  | Stock Picking: group by partner and carrier
 [stock_picking_group_by_partner_by_carrier_by_date](stock_picking_group_by_partner_by_carrier_by_date/) | 14.0.1.0.1 |  | Stock Picking: group by partner and carrier and scheduled date
@@ -63,6 +65,7 @@ addon | version | maintainers | summary
 [stock_picking_product_link](stock_picking_product_link/) | 14.0.1.0.0 | [![robinkeunen](https://github.com/robinkeunen.png?size=30px)](https://github.com/robinkeunen) | Adds a "Product" smart button on stock pickings.
 [stock_picking_progress](stock_picking_progress/) | 14.0.1.2.0 | [![mmequignon](https://github.com/mmequignon.png?size=30px)](https://github.com/mmequignon) [![JuMiSanAr](https://github.com/JuMiSanAr.png?size=30px)](https://github.com/JuMiSanAr) | Compute the stock.picking progression
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 14.0.1.0.1 |  | Link between picking and purchase order
+[stock_picking_quick](stock_picking_quick/) | 14.0.1.0.4 | [![PierrickBrun](https://github.com/PierrickBrun.png?size=30px)](https://github.com/PierrickBrun) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Quick Stock Picking
 [stock_picking_restrict_cancel_with_orig_move](stock_picking_restrict_cancel_with_orig_move/) | 14.0.1.0.1 |  | Restrict cancellation of dest moves according to origin.
 [stock_picking_return_show_lot](stock_picking_return_show_lot/) | 14.0.1.0.1 |  | This module allows to show lots in the picking return wizard before " "return picking creation.
 [stock_picking_sale_order_link](stock_picking_sale_order_link/) | 14.0.1.0.1 |  | Link between picking and sale order
@@ -83,6 +86,7 @@ addon | version | maintainers | summary
 [stock_scheduler_assignation_horizon](stock_scheduler_assignation_horizon/) | 14.0.1.0.0 |  | Set a timeframe limit to the delivery scheduler
 [stock_split_picking](stock_split_picking/) | 14.0.1.1.0 |  | Split a picking in two not transferred pickings
 [stock_valuation_layer_by_category](stock_valuation_layer_by_category/) | 14.0.1.0.0 |  | Display stock valuation layer by category
+[stock_valuation_layer_usage](stock_valuation_layer_usage/) | 14.0.1.0.1 |  | Trace where has the stock valuation been used in, including the quantities taken.
 [stock_valuation_no_developer_mode](stock_valuation_no_developer_mode/) | 14.0.1.0.1 |  | Stock valuation layer no developer mode
 
 [//]: # (end addons)
