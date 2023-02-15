@@ -25,12 +25,14 @@ addon | version | maintainers | summary
 [purchase_stock_picking_invoice_link](purchase_stock_picking_invoice_link/) | 15.0.1.0.0 |  | Adds link between purchases, pickings and invoices
 [sale_line_returned_qty](sale_line_returned_qty/) | 15.0.1.0.0 |  | Track returned quantity of sale order lines.
 [stock_landed_costs_purchase_auto](stock_landed_costs_purchase_auto/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock landed costs purchase auto
+[stock_landed_costs_security](stock_landed_costs_security/) | 15.0.1.0.0 | [![cesar-tecnativa](https://github.com/cesar-tecnativa.png?size=30px)](https://github.com/cesar-tecnativa) | Stock landed costs security
 [stock_lot_on_hand_first](stock_lot_on_hand_first/) | 15.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Allows to display lots on hand first in M2o fields
 [stock_lot_product_qty_search](stock_lot_product_qty_search/) | 15.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Allows to search on Quantity field of Lot/Serial Numbers
 [stock_move_line_auto_fill](stock_move_line_auto_fill/) | 15.0.1.0.0 |  | Stock Move Line auto fill
 [stock_move_quick_lot](stock_move_quick_lot/) | 15.0.1.0.0 |  | Set lot name and end date directly on picking operations
 [stock_no_negative](stock_no_negative/) | 15.0.1.0.0 |  | Disallow negative stock levels by default
 [stock_owner_restriction](stock_owner_restriction/) | 15.0.1.0.1 |  | Do not reserve quantity with assigned owner
+[stock_picking_assign_serial_final](stock_picking_assign_serial_final/) | 15.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Generate serial numbers until to a final serial number
 [stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 15.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
 [stock_picking_back2draft](stock_picking_back2draft/) | 15.0.1.0.1 |  | Reopen cancelled pickings
 [stock_picking_batch_extended](stock_picking_batch_extended/) | 15.0.2.0.0 | [![gurneyalex](https://github.com/gurneyalex.png?size=30px)](https://github.com/gurneyalex) [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) [![i-vyshnevska](https://github.com/i-vyshnevska.png?size=30px)](https://github.com/i-vyshnevska) | Allows manage a lot of pickings in batch
