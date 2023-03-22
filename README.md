@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[delivery_procurement_group_carrier](delivery_procurement_group_carrier/) | 16.0.1.0.0 |  | Delivery Procurement Group Carrier
 [purchase_stock_picking_invoice_link](purchase_stock_picking_invoice_link/) | 16.0.1.0.0 |  | Adds link between purchases, pickings and invoices
 [stock_delivery_note](stock_delivery_note/) | 16.0.1.0.0 |  | This module allows to fill in a delivery note that will be displayed on delivery report
 [stock_grn](stock_grn/) | 16.0.1.0.1 |  | Goods Received Note
@@ -30,6 +31,7 @@ addon | version | maintainers | summary
 [stock_no_negative](stock_no_negative/) | 16.0.1.0.1 |  | Disallow negative stock levels by default
 [stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 16.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
 [stock_picking_back2draft](stock_picking_back2draft/) | 16.0.1.0.0 |  | Reopen cancelled pickings
+[stock_picking_group_by_base](stock_picking_group_by_base/) | 16.0.1.0.0 |  | Allows to define a way to create index on extensible domain
 [stock_picking_invoice_link](stock_picking_invoice_link/) | 16.0.1.0.1 |  | Adds link between pickings and invoices
 [stock_picking_sale_order_link](stock_picking_sale_order_link/) | 16.0.1.0.0 |  | Link between picking and sale order
 [stock_picking_start](stock_picking_start/) | 16.0.1.0.2 |  | Add button to start picking

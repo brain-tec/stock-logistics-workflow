@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-stock-logistics-workflow Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-delivery_procurement_group_carrier>=16.0dev,<16.1dev',
         'odoo-addon-purchase_stock_picking_invoice_link>=16.0dev,<16.1dev',
         'odoo-addon-stock_delivery_note>=16.0dev,<16.1dev',
         'odoo-addon-stock_grn>=16.0dev,<16.1dev',
@@ -17,6 +18,7 @@ setuptools.setup(
         'odoo-addon-stock_no_negative>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_auto_create_lot>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_back2draft>=16.0dev,<16.1dev',
+        'odoo-addon-stock_picking_group_by_base>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_invoice_link>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_sale_order_link>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_start>=16.0dev,<16.1dev',
