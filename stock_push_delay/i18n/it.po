@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* stock_picking_origin_reference_purchase
+# 	* stock_push_delay
 #
 msgid ""
 msgstr ""
@@ -16,7 +16,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#. module: stock_picking_origin_reference_purchase
-#: model:ir.model,name:stock_picking_origin_reference_purchase.model_stock_picking
+#. module: stock_push_delay
+#: model:ir.model,name:stock_push_delay.model_stock_move
+msgid "Stock Move"
+msgstr "Movimento di magazzino"
+
+#. module: stock_push_delay
+#: model:ir.model,name:stock_push_delay.model_stock_picking
 msgid "Transfer"
 msgstr "Trasferimento"
