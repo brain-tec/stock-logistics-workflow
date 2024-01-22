@@ -30,7 +30,7 @@ addon | version | maintainers | summary
 [sale_order_global_stock_route](sale_order_global_stock_route/) | 15.0.1.0.0 |  | Add the possibility to choose one warehouse path for an order
 [stock_account_product_run_fifo_hook](stock_account_product_run_fifo_hook/) | 15.0.1.0.0 |  | Add more flexibility in the run fifo method.
 [stock_delivery_note](stock_delivery_note/) | 15.0.1.0.0 |  | This module allows to fill in a delivery note that will be displayed on delivery report
-[stock_landed_costs_delivery](stock_landed_costs_delivery/) | 15.0.2.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock landed costs delivery
+[stock_landed_costs_delivery](stock_landed_costs_delivery/) | 15.0.2.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock landed costs delivery
 [stock_landed_costs_purchase_auto](stock_landed_costs_purchase_auto/) | 15.0.2.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock landed costs purchase auto
 [stock_landed_costs_security](stock_landed_costs_security/) | 15.0.1.0.0 | [![cesar-tecnativa](https://github.com/cesar-tecnativa.png?size=30px)](https://github.com/cesar-tecnativa) | Stock landed costs security
 [stock_lot_on_hand_first](stock_lot_on_hand_first/) | 15.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Allows to display lots on hand first in M2o fields
@@ -73,6 +73,7 @@ addon | version | maintainers | summary
 [stock_picking_show_return](stock_picking_show_return/) | 15.0.1.0.0 |  | Show returns on stock pickings
 [stock_picking_warn_message](stock_picking_warn_message/) | 15.0.1.0.1 |  | Add a popup warning on picking to ensure warning is populated
 [stock_picking_whole_scrap](stock_picking_whole_scrap/) | 15.0.1.0.2 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Create whole scrap from a picking for move lines
+[stock_product_set](stock_product_set/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Add product sets in pickings
 [stock_production_lot_active](stock_production_lot_active/) | 15.0.1.0.2 | [![ThomasBinsfeld](https://github.com/ThomasBinsfeld.png?size=30px)](https://github.com/ThomasBinsfeld) | Allow to archive/unarchive a lot.
 [stock_production_lot_traceability](stock_production_lot_traceability/) | 15.0.1.0.1 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Drill down/up the lots produced or consumed
 [stock_push_delay](stock_push_delay/) | 15.0.1.0.0 |  | Manual evaluation of Push rules
