@@ -27,7 +27,7 @@ addon | version | maintainers | summary
 [procurement_auto_create_group_carrier](procurement_auto_create_group_carrier/) | 14.0.1.1.0 |  | Procurement Auto Create Group Carrier
 [product_cost_price_avco_sync](product_cost_price_avco_sync/) | 14.0.1.0.1 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Set product cost price from updated moves
 [product_expiry_simple](product_expiry_simple/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Simpler and better alternative to the official product_expiry module
-[product_supplierinfo_for_customer_picking](product_supplierinfo_for_customer_picking/) | 14.0.1.1.0 |  | This module makes the product customer code visible in the stock moves of a picking.
+[product_supplierinfo_for_customer_picking](product_supplierinfo_for_customer_picking/) | 14.0.1.2.1 |  | This module makes the product customer code visible in the stock moves of a picking.
 [product_supplierinfo_picking](product_supplierinfo_picking/) | 14.0.1.0.0 |  | This module makes the product supplier code visible in the stock moves of a picking.
 [purchase_stock_picking_invoice_link](purchase_stock_picking_invoice_link/) | 14.0.1.1.0 |  | Adds link between purchases, pickings and invoices
 [sale_line_returned_qty](sale_line_returned_qty/) | 14.0.1.0.0 |  | Track returned quantity of sale order lines.
@@ -39,7 +39,7 @@ addon | version | maintainers | summary
 [stock_auto_move](stock_auto_move/) | 14.0.1.0.0 |  | Automatic Move Processing
 [stock_dangerous_goods](stock_dangerous_goods/) | 14.0.1.0.0 | [![mmequignon](https://github.com/mmequignon.png?size=30px)](https://github.com/mmequignon) | Adds utility fields to manage dangerous goods
 [stock_delivery_note](stock_delivery_note/) | 14.0.1.0.1 |  | This module allows to fill in a delivery note that will be displayed on delivery report
-[stock_landed_costs_delivery](stock_landed_costs_delivery/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock landed costs delivery
+[stock_landed_costs_delivery](stock_landed_costs_delivery/) | 14.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock landed costs delivery
 [stock_landed_costs_mrp_subcontracting](stock_landed_costs_mrp_subcontracting/) | 14.0.1.1.0 |  | When using Subcontracting, use the incoming shipment in landed costs
 [stock_landed_costs_purchase_auto](stock_landed_costs_purchase_auto/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock landed costs purchase auto
 [stock_landed_costs_security](stock_landed_costs_security/) | 14.0.1.0.0 | [![cesar-tecnativa](https://github.com/cesar-tecnativa.png?size=30px)](https://github.com/cesar-tecnativa) | Stock landed costs security
