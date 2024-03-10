@@ -16,6 +16,7 @@ setuptools.setup(
         'odoo-addon-sale_line_returned_qty_mrp>=15.0dev,<15.1dev',
         'odoo-addon-sale_order_global_stock_route>=15.0dev,<15.1dev',
         'odoo-addon-stock_account_product_run_fifo_hook>=15.0dev,<15.1dev',
+        'odoo-addon-stock_auto_move>=15.0dev,<15.1dev',
         'odoo-addon-stock_delivery_note>=15.0dev,<15.1dev',
         'odoo-addon-stock_force_assign_by_type>=15.0dev,<15.1dev',
         'odoo-addon-stock_landed_costs_delivery>=15.0dev,<15.1dev',
@@ -74,6 +75,7 @@ setuptools.setup(
         'odoo-addon-stock_return_request>=15.0dev,<15.1dev',
         'odoo-addon-stock_scrap_tier_validation>=15.0dev,<15.1dev',
         'odoo-addon-stock_split_picking>=15.0dev,<15.1dev',
+        'odoo-addon-stock_valuation_fifo_lot>=15.0dev,<15.1dev',
         'odoo-addon-stock_valuation_layer_usage>=15.0dev,<15.1dev',
     ],
     classifiers=[
