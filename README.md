@@ -35,6 +35,7 @@ addon | version | maintainers | summary
 [stock_lot_scrap](stock_lot_scrap/) | 16.0.1.0.0 |  | This module adds a button in Production Lot/Serial Number view form to Scrap all products contained.
 [stock_move_free_reservation_reassign](stock_move_free_reservation_reassign/) | 16.0.1.0.1 |  | Try to reassign a move when its reservation is removed due to the related quant becoming unavailable
 [stock_move_line_auto_fill](stock_move_line_auto_fill/) | 16.0.1.1.0 |  | Stock Move Line auto fill
+[stock_move_line_change_lot](stock_move_line_change_lot/) | 16.0.1.0.0 |  | Stock Move Line Change Lot
 [stock_move_line_expiration_date_required](stock_move_line_expiration_date_required/) | 16.0.1.0.2 |  | Stock Move Line Expiration Date Required
 [stock_move_line_reserved_quant](stock_move_line_reserved_quant/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module allows to get the link from a stock move line to the reserved quant
 [stock_move_line_serial_unique](stock_move_line_serial_unique/) | 16.0.1.0.0 |  | Stock Move Line Serial Unique
@@ -67,6 +68,7 @@ addon | version | maintainers | summary
 [stock_picking_mass_action](stock_picking_mass_action/) | 16.0.1.1.0 |  | Stock Picking Mass Action
 [stock_picking_partner_note](stock_picking_partner_note/) | 16.0.1.0.1 |  | Add partner notes on picking
 [stock_picking_product_link](stock_picking_product_link/) | 16.0.1.0.0 | [![robinkeunen](https://github.com/robinkeunen.png?size=30px)](https://github.com/robinkeunen) | Adds a "Product" smart button on stock pickings.
+[stock_picking_progress](stock_picking_progress/) | 16.0.1.0.0 | [![mmequignon](https://github.com/mmequignon.png?size=30px)](https://github.com/mmequignon) [![JuMiSanAr](https://github.com/JuMiSanAr.png?size=30px)](https://github.com/JuMiSanAr) | Compute the stock.picking progression
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 16.0.1.0.1 |  | Link between picking and purchase order
 [stock_picking_sale_order_link](stock_picking_sale_order_link/) | 16.0.1.0.0 |  | Link between picking and sale order
 [stock_picking_send_by_mail](stock_picking_send_by_mail/) | 16.0.1.0.0 |  | Send stock picking by email
