@@ -59,7 +59,7 @@ addon | version | maintainers | summary
 [stock_no_negative](stock_no_negative/) | 14.0.1.0.1 |  | Disallow negative stock levels by default
 [stock_owner_restriction](stock_owner_restriction/) | 14.0.1.0.2 |  | Do not reserve quantity with assigned owner
 [stock_partner_delivery_window](stock_partner_delivery_window/) | 14.0.1.2.2 |  | Define preferred delivery time windows for partners
-[stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 14.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
+[stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 14.0.1.0.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
 [stock_picking_auto_create_package](stock_picking_auto_create_package/) | 14.0.1.0.0 |  | Put all move lines in packs on validation.
 [stock_picking_back2draft](stock_picking_back2draft/) | 14.0.1.0.0 |  | Reopen cancelled pickings
 [stock_picking_backorder_strategy](stock_picking_backorder_strategy/) | 14.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) [![mgosai](https://github.com/mgosai.png?size=30px)](https://github.com/mgosai) | Picking backordering strategies
@@ -78,7 +78,7 @@ addon | version | maintainers | summary
 [stock_picking_product_link](stock_picking_product_link/) | 14.0.1.0.0 | [![robinkeunen](https://github.com/robinkeunen.png?size=30px)](https://github.com/robinkeunen) | Adds a "Product" smart button on stock pickings.
 [stock_picking_progress](stock_picking_progress/) | 14.0.1.2.1 | [![mmequignon](https://github.com/mmequignon.png?size=30px)](https://github.com/mmequignon) [![JuMiSanAr](https://github.com/JuMiSanAr.png?size=30px)](https://github.com/JuMiSanAr) | Compute the stock.picking progression
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 14.0.1.0.1 |  | Link between picking and purchase order
-[stock_picking_putinpack_restriction](stock_picking_putinpack_restriction/) | 14.0.1.0.0 |  | Adds a restriction on transfer type to force or disallow the use of destination package.
+[stock_picking_putinpack_restriction](stock_picking_putinpack_restriction/) | 14.0.1.0.1 |  | Adds a restriction on transfer type to force or disallow the use of destination package.
 [stock_picking_quick](stock_picking_quick/) | 14.0.1.0.5 | [![PierrickBrun](https://github.com/PierrickBrun.png?size=30px)](https://github.com/PierrickBrun) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Quick Stock Picking
 [stock_picking_reallocation](stock_picking_reallocation/) | 14.0.1.0.0 |  | Allow to reallocate moves from a picking to several pickings.
 [stock_picking_restrict_cancel_printed](stock_picking_restrict_cancel_printed/) | 14.0.1.0.1 |  | Prevent canceling a stock transfer if printed.
