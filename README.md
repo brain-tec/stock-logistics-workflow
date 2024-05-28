@@ -46,7 +46,7 @@ addon | version | maintainers | summary
 [stock_no_negative](stock_no_negative/) | 15.0.1.0.0 |  | Disallow negative stock levels by default
 [stock_owner_restriction](stock_owner_restriction/) | 15.0.1.1.3 |  | Do not reserve quantity with assigned owner
 [stock_picking_assign_serial_final](stock_picking_assign_serial_final/) | 15.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Generate serial numbers until to a final serial number
-[stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 15.0.1.0.3 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
+[stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 15.0.2.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
 [stock_picking_back2draft](stock_picking_back2draft/) | 15.0.1.0.1 |  | Reopen cancelled pickings
 [stock_picking_backorder_strategy](stock_picking_backorder_strategy/) | 15.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) [![mgosai](https://github.com/mgosai.png?size=30px)](https://github.com/mgosai) | Picking backordering strategies
 [stock_picking_batch_extended](stock_picking_batch_extended/) | 15.0.2.5.0 | [![gurneyalex](https://github.com/gurneyalex.png?size=30px)](https://github.com/gurneyalex) [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) [![i-vyshnevska](https://github.com/i-vyshnevska.png?size=30px)](https://github.com/i-vyshnevska) | Allows manage a lot of pickings in batch
@@ -69,7 +69,7 @@ addon | version | maintainers | summary
 [stock_picking_product_assortment_availability_inline](stock_picking_product_assortment_availability_inline/) | 15.0.1.0.0 | [![Sergio-teruel](https://github.com/Sergio-teruel.png?size=30px)](https://github.com/Sergio-teruel) | Glue module to display stock available when an assortment is defined for a partner
 [stock_picking_product_availability_inline](stock_picking_product_availability_inline/) | 15.0.1.0.1 |  | Show product availability in product drop-down in stock picking form view.
 [stock_picking_product_availability_search](stock_picking_product_availability_search/) | 15.0.1.0.1 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Filter pickings by their products availability state
-[stock_picking_propagate_scheduled_date](stock_picking_propagate_scheduled_date/) | 15.0.1.0.0 |  | Propagate Stock Picking Scheduled Date
+[stock_picking_propagate_scheduled_date](stock_picking_propagate_scheduled_date/) | 15.0.1.0.1 |  | Propagate Stock Picking Scheduled Date
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 15.0.1.0.1 |  | Link between picking and purchase order
 [stock_picking_return_restricted_qty](stock_picking_return_restricted_qty/) | 15.0.1.0.1 |  | Restrict the return to delivered quantity
 [stock_picking_sale_order_link](stock_picking_sale_order_link/) | 15.0.1.0.3 |  | Link between picking and sale order
