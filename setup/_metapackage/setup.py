@@ -14,7 +14,6 @@ setuptools.setup(
         'odoo-addon-sale_line_returned_qty>=16.0dev,<16.1dev',
         'odoo-addon-sale_order_global_stock_route>=16.0dev,<16.1dev',
         'odoo-addon-sale_stock_restocking_fee_invoicing>=16.0dev,<16.1dev',
-        'odoo-addon-stock_account_product_run_fifo_hook>=16.0dev,<16.1dev',
         'odoo-addon-stock_auto_move>=16.0dev,<16.1dev',
         'odoo-addon-stock_customer_deposit>=16.0dev,<16.1dev',
         'odoo-addon-stock_customer_deposit_elaboration>=16.0dev,<16.1dev',
@@ -22,6 +21,7 @@ setuptools.setup(
         'odoo-addon-stock_delivery_note>=16.0dev,<16.1dev',
         'odoo-addon-stock_grn>=16.0dev,<16.1dev',
         'odoo-addon-stock_landed_costs_currency>=16.0dev,<16.1dev',
+        'odoo-addon-stock_landed_costs_delivery>=16.0dev,<16.1dev',
         'odoo-addon-stock_landed_costs_purchase_auto>=16.0dev,<16.1dev',
         'odoo-addon-stock_landed_costs_security>=16.0dev,<16.1dev',
         'odoo-addon-stock_lot_production_date>=16.0dev,<16.1dev',
@@ -85,7 +85,6 @@ setuptools.setup(
         'odoo-addon-stock_restrict_lot>=16.0dev,<16.1dev',
         'odoo-addon-stock_rule_reserve_max_quantity>=16.0dev,<16.1dev',
         'odoo-addon-stock_split_picking>=16.0dev,<16.1dev',
-        'odoo-addon-stock_valuation_layer_usage>=16.0dev,<16.1dev',
     ],
     classifiers=[
         'Programming Language :: Python',
