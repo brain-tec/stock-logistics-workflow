@@ -58,7 +58,7 @@ addon | version | maintainers | summary
 [stock_picking_filter_lot](stock_picking_filter_lot/) | 15.0.1.0.1 |  | In picking out lots' selection, filter lots based on their location
 [stock_picking_import_serial_number](stock_picking_import_serial_number/) | 15.0.2.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Import S/N from excel file for incoming pickings
 [stock_picking_info_lot](stock_picking_info_lot/) | 15.0.1.0.0 |  | Add lot information on Stock Transfer lines
-[stock_picking_invoice_link](stock_picking_invoice_link/) | 15.0.1.1.1 |  | Adds link between pickings and invoices
+[stock_picking_invoice_link](stock_picking_invoice_link/) | 15.0.1.2.0 |  | Adds link between pickings and invoices
 [stock_picking_line_sequence](stock_picking_line_sequence/) | 15.0.1.0.2 |  | Manages the order of stock moves by displaying its sequence
 [stock_picking_mass_action](stock_picking_mass_action/) | 15.0.1.0.3 |  | Stock Picking Mass Action
 [stock_picking_operation_quick_change](stock_picking_operation_quick_change/) | 15.0.1.1.1 |  | Change location of all picking operations
@@ -89,7 +89,7 @@ addon | version | maintainers | summary
 [stock_reception_discrepancy_distribution](stock_reception_discrepancy_distribution/) | 15.0.1.0.1 |  | Change demand in stock moves linked to reception one
 [stock_remote_measure](stock_remote_measure/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Allows to connect to remote devices to record measures in stock fields
 [stock_restrict_lot](stock_restrict_lot/) | 15.0.0.0.2 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Base module that add back the concept of restrict lot on stock move
-[stock_return_request](stock_return_request/) | 15.0.1.0.1 |  | Stock Return Request
+[stock_return_request](stock_return_request/) | 15.0.1.0.2 |  | Stock Return Request
 [stock_scrap_tier_validation](stock_scrap_tier_validation/) | 15.0.1.0.0 |  | Stock Scrap Tier Validation
 [stock_split_picking](stock_split_picking/) | 15.0.1.1.2 |  | Split a picking in two not transferred pickings
 [stock_valuation_fifo_lot](stock_valuation_fifo_lot/) | 15.0.1.0.0 | [![newtratip](https://github.com/newtratip.png?size=30px)](https://github.com/newtratip) | Stock Valuation Fifo Lot
