@@ -23,12 +23,13 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [delivery_procurement_group_carrier](delivery_procurement_group_carrier/) | 17.0.1.0.0 |  | Delivery Procurement Group Carrier
 [sale_order_global_stock_route](sale_order_global_stock_route/) | 17.0.1.0.0 |  | Add the possibility to choose one warehouse path for an order
+[stock_account_show_automatic_valuation](stock_account_show_automatic_valuation/) | 17.0.1.0.0 |  | Allow automatic valuation for stock moves in community edition
 [stock_move_line_reference_link](stock_move_line_reference_link/) | 17.0.1.0.0 |  | Add link in stock move line references.
 [stock_no_negative](stock_no_negative/) | 17.0.1.0.0 |  | Disallow negative stock levels by default
 [stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 17.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
 [stock_picking_back2draft](stock_picking_back2draft/) | 17.0.1.0.0 |  | Reopen cancelled pickings
 [stock_picking_filter_lot](stock_picking_filter_lot/) | 17.0.1.0.0 |  | In picking out lots' selection, filter lots based on their location
-[stock_picking_invoice_link](stock_picking_invoice_link/) | 17.0.1.2.2 |  | Adds link between pickings and invoices
+[stock_picking_invoice_link](stock_picking_invoice_link/) | 17.0.1.2.3 |  | Adds link between pickings and invoices
 [stock_picking_kind](stock_picking_kind/) | 17.0.1.0.0 |  | Computes the kind of picking based on locations
 [stock_picking_origin_reference](stock_picking_origin_reference/) | 17.0.1.0.0 |  | Add clickable button to the Transfer Source Document.
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 17.0.1.0.0 |  | Link between picking and purchase order
