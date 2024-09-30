@@ -96,11 +96,12 @@ addon | version | maintainers | summary
 [stock_picking_warn_message](stock_picking_warn_message/) | 14.0.2.0.0 |  | Add a popup warning on picking to ensure warning is populated
 [stock_production_lot_active](stock_production_lot_active/) | 14.0.1.0.1 | [![ThomasBinsfeld](https://github.com/ThomasBinsfeld.png?size=30px)](https://github.com/ThomasBinsfeld) | Allow to archive/unarchive a lot.
 [stock_push_delay](stock_push_delay/) | 14.0.1.0.1 |  | Manual evaluation of Push rules
-[stock_putaway_by_route](stock_putaway_by_route/) | 14.0.1.0.0 |  | Add a match by route on putaway, after product and categories
+[stock_putaway_by_route](stock_putaway_by_route/) | 14.0.1.1.0 |  | Add a match by route on putaway, after product and categories
 [stock_putaway_hook](stock_putaway_hook/) | 14.0.1.0.0 |  | Add hooks allowing modules to add more putaway strategies
 [stock_quant_package_dimension](stock_quant_package_dimension/) | 14.0.2.2.0 |  | Use dimensions on packages
 [stock_quant_package_dimension_total_weight_from_packaging](stock_quant_package_dimension_total_weight_from_packaging/) | 14.0.1.1.0 |  | Estimated weight of a package
 [stock_quant_package_product_packaging](stock_quant_package_product_packaging/) | 14.0.1.1.0 |  | Use product packagings on packages
+[stock_restrict_expiration_date](stock_restrict_expiration_date/) | 14.0.1.3.1 | [![petrus-v](https://github.com/petrus-v.png?size=30px)](https://github.com/petrus-v) | Add concept of restrict lot on stock move based on specific expiration date
 [stock_restrict_lot](stock_restrict_lot/) | 14.0.1.3.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Base module that add back the concept of restrict lot on stock move
 [stock_restrict_lot_update](stock_restrict_lot_update/) | 14.0.1.0.0 | [![aleuffre](https://github.com/aleuffre.png?size=30px)](https://github.com/aleuffre) [![renda-dev](https://github.com/renda-dev.png?size=30px)](https://github.com/renda-dev) | Only apply lot restriction on products in a domain
 [stock_return_request](stock_return_request/) | 14.0.1.0.3 |  | Stock Return Request
