@@ -26,6 +26,7 @@ addon | version | maintainers | summary
 [sale_order_global_stock_route](sale_order_global_stock_route/) | 17.0.1.0.0 |  | Add the possibility to choose one warehouse path for an order
 [stock_account_product_run_fifo_hook](stock_account_product_run_fifo_hook/) | 17.0.1.0.1 |  | Add more flexibility in the run fifo method.
 [stock_account_show_automatic_valuation](stock_account_show_automatic_valuation/) | 17.0.1.0.0 |  | Allow automatic valuation for stock moves in community edition
+[stock_lock_lot](stock_lock_lot/) | 17.0.1.0.0 |  | Stock Lock Lot
 [stock_lot_on_hand_first](stock_lot_on_hand_first/) | 17.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Allows to display lots on hand first in M2o fields
 [stock_lot_production_date](stock_lot_production_date/) | 17.0.1.0.0 | [![atchuthan](https://github.com/atchuthan.png?size=30px)](https://github.com/atchuthan) | Stock Lot Production Date
 [stock_move_line_reference_link](stock_move_line_reference_link/) | 17.0.1.0.0 |  | Add link in stock move line references.
