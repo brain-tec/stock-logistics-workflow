@@ -29,6 +29,7 @@ addon | version | maintainers | summary
 [stock_lock_lot](stock_lock_lot/) | 17.0.1.0.0 |  | Stock Lock Lot
 [stock_lot_on_hand_first](stock_lot_on_hand_first/) | 17.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Allows to display lots on hand first in M2o fields
 [stock_lot_production_date](stock_lot_production_date/) | 17.0.1.0.0 | [![atchuthan](https://github.com/atchuthan.png?size=30px)](https://github.com/atchuthan) | Stock Lot Production Date
+[stock_move_forced_lot](stock_move_forced_lot/) | 17.0.1.0.0 |  | This module allows you to set a lot_id in a procurement to force the stock move generated to only reserve the selected lot.
 [stock_move_line_reference_link](stock_move_line_reference_link/) | 17.0.1.0.0 |  | Add link in stock move line references.
 [stock_no_negative](stock_no_negative/) | 17.0.1.0.0 |  | Disallow negative stock levels by default
 [stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 17.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Auto create lots for incoming pickings
@@ -39,6 +40,7 @@ addon | version | maintainers | summary
 [stock_picking_origin_reference](stock_picking_origin_reference/) | 17.0.1.0.0 |  | Add clickable button to the Transfer Source Document.
 [stock_picking_origin_reference_purchase](stock_picking_origin_reference_purchase/) | 17.0.1.0.0 |  | Transfer to Purchase Order navigation from the Source Document.
 [stock_picking_origin_reference_sale](stock_picking_origin_reference_sale/) | 17.0.1.0.0 |  | Transfer to Sales Order navigation from the Source Document.
+[stock_picking_partner_note](stock_picking_partner_note/) | 17.0.1.0.0 |  | Add partner notes on picking
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 17.0.1.0.0 |  | Link between picking and purchase order
 [stock_picking_return_lot](stock_picking_return_lot/) | 17.0.1.0.0 |  | Propagate SN/lots from origin picking to return picking.
 [stock_picking_return_restricted_qty](stock_picking_return_restricted_qty/) | 17.0.1.0.0 |  | Restrict the return to delivered quantity
