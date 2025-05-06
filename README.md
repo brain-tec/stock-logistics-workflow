@@ -102,6 +102,7 @@ addon | version | maintainers | summary
 [stock_picking_start](stock_picking_start/) | 16.0.1.1.1 |  | Add button to start picking
 [stock_picking_supplier_ref](stock_picking_supplier_ref/) | 16.0.1.0.0 |  | Adds a supplier reference field inside supplier's pickings and allows search for this reference.
 [stock_picking_to_batch_group_fields](stock_picking_to_batch_group_fields/) | 16.0.1.0.1 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Allows to create batches grouped by picking fields.
+[stock_picking_type_bypass_reservation](stock_picking_type_bypass_reservation/) | 16.0.1.0.1 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) | Bypass reservation on desired Stock Picking Types
 [stock_picking_warn_message](stock_picking_warn_message/) | 16.0.1.0.0 |  | Add a popup warning on picking to ensure warning is populated
 [stock_procurement_customer](stock_procurement_customer/) | 16.0.1.0.1 |  | Allows to store customer if different from the partner
 [stock_product_set](stock_product_set/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Add product sets in pickings
