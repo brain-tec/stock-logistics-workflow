@@ -80,6 +80,7 @@ setuptools.setup(
         'odoo-addon-stock_picking_purchase_order_link>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_quick>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_restrict_cancel_printed>=16.0dev,<16.1dev',
+        'odoo-addon-stock_picking_return_empty_package>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_return_lot>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_return_restricted_qty>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_sale_order_link>=16.0dev,<16.1dev',
