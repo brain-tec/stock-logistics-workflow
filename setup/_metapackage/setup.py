@@ -32,6 +32,7 @@ setuptools.setup(
         'odoo-addon-stock_lot_on_hand_first>=16.0dev,<16.1dev',
         'odoo-addon-stock_lot_production_date>=16.0dev,<16.1dev',
         'odoo-addon-stock_lot_scrap>=16.0dev,<16.1dev',
+        'odoo-addon-stock_move_actual_date>=16.0dev,<16.1dev',
         'odoo-addon-stock_move_free_reservation_reassign>=16.0dev,<16.1dev',
         'odoo-addon-stock_move_line_auto_fill>=16.0dev,<16.1dev',
         'odoo-addon-stock_move_line_change_lot>=16.0dev,<16.1dev',
