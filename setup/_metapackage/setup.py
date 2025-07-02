@@ -77,6 +77,7 @@ setuptools.setup(
         'odoo-addon-stock_picking_operation_quick_change>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_origin_reference>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_origin_reference_purchase>=16.0dev,<16.1dev',
+        'odoo-addon-stock_picking_origin_reference_sale>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_partner_note>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_portal>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_product_assortment>=16.0dev,<16.1dev',
