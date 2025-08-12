@@ -80,7 +80,7 @@ addon | version | maintainers | summary
 [stock_picking_group_by_max_weight](stock_picking_group_by_max_weight/) | 16.0.1.1.1 |  | Allows to filter available pickings for which a maximum weight is not exceeded.
 [stock_picking_group_by_partner_by_carrier](stock_picking_group_by_partner_by_carrier/) | 16.0.1.2.0 |  | Stock Picking: group by partner and carrier
 [stock_picking_group_by_partner_by_carrier_by_date](stock_picking_group_by_partner_by_carrier_by_date/) | 16.0.1.0.0 |  | Stock Picking: group by partner and carrier and scheduled date
-[stock_picking_import_serial_number](stock_picking_import_serial_number/) | 16.0.1.0.0 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Import S/N from excel file for incoming pickings
+[stock_picking_import_serial_number](stock_picking_import_serial_number/) | 16.0.1.0.1 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Import S/N from excel file for incoming pickings
 [stock_picking_info_lot](stock_picking_info_lot/) | 16.0.1.0.0 |  | Add lot information on Stock Transfer lines
 [stock_picking_invoice_link](stock_picking_invoice_link/) | 16.0.1.1.6 |  | Adds link between pickings and invoices
 [stock_picking_kind](stock_picking_kind/) | 16.0.1.0.0 |  | Computes the kind of picking based on locations
