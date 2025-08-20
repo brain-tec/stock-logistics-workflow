@@ -6,97 +6,100 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-08-20 10:26+0000\n"
+"Last-Translator: Betül Öğmen <betulo@eska.biz>\n"
 "Language-Team: none\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Field to search products</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Ürün arama alanı</span>"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">File column index for package</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Paket için dosya sütun indexi</span>"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">File column index for products</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Ürünler için dosya sütun indeksi</span>"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">File column index for serial number</span>"
 msgstr ""
+"<span class=\"o_form_label\">Seri numarası için dosya sütun indeksi</span>"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields.selection,name:stock_picking_import_serial_number.selection__res_config_settings__default_sn_search_product_by_field__barcode
 #: model:ir.model.fields.selection,name:stock_picking_import_serial_number.selection__stock_picking_import_serial_number_wiz__sn_search_product_by_field__barcode
 msgid "Barcode"
-msgstr ""
+msgstr "Barkod"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.stock_picking_import_serial_number_wiz
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.stock_picking_import_serial_number_wiz
 msgid "Choose a file to import..."
-msgstr ""
+msgstr "İçe aktarılacak dosyayı seçin..."
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_package_column_index
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_package_column_index
 msgid "Column index for Package"
-msgstr ""
+msgstr "Paket için sütun indeksi"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_serial_column_index
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_serial_column_index
 msgid "Column index for S/N"
-msgstr ""
+msgstr "S/N için sütun indeksi"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_product_column_index
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_product_column_index
 msgid "Column index for product"
-msgstr ""
+msgstr "Ürün için sütun indeksi"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model,name:stock_picking_import_serial_number.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Yapılandırma Ayarları"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Oluşturan"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Oluşturulma"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Görünen İsim"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__data_file
 msgid "File to import"
-msgstr ""
+msgstr "İçe aktarılacak dosya"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__filename
 msgid "Filename"
-msgstr ""
+msgstr "Dosya adı"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__id
@@ -109,76 +112,76 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.stock_picking_import_serial_number_wiz
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.view_picking_form
 msgid "Import S/N"
-msgstr ""
+msgstr "İçe Aktar S/N"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model,name:stock_picking_import_serial_number.model_stock_picking_import_serial_number_wiz
 msgid "Import S/N wizard"
-msgstr ""
+msgstr "S/N sihirbazını içe aktar"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Son değiştirilme tarihi"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Son Güncelleme"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Son Güncelleme"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__overwrite_serial
 msgid "Overwrite Serial"
-msgstr ""
+msgstr "Seriyi Üzerine Yaz"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__picking_ids
 msgid "Picking"
-msgstr ""
+msgstr "Toplama"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields.selection,name:stock_picking_import_serial_number.selection__res_config_settings__default_sn_search_product_by_field__default_code
 #: model:ir.model.fields.selection,name:stock_picking_import_serial_number.selection__stock_picking_import_serial_number_wiz__sn_search_product_by_field__default_code
 msgid "Reference"
-msgstr ""
+msgstr "Referans"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_search_product_by_field
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_search_product_by_field
 msgid "Search product by field"
-msgstr ""
+msgstr "Ürünü alana göre arayın"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "Select the field to search products"
-msgstr ""
+msgstr "Ürünleri aramak için alanı seçin"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "Select the index file column which contains the package info"
-msgstr ""
+msgstr "Paket bilgilerini içeren indeks dosyası sütununu seçin"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "Select the index file column which contains the product info"
-msgstr ""
+msgstr "Ürün bilgilerini içeren indeks dosyası sütununu seçin"
 
 #. module: stock_picking_import_serial_number
 #: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
 msgid "Select the index file column which contains the serial numbers info"
-msgstr ""
+msgstr "Seri numaraları bilgilerini içeren indeks dosyası sütununu seçin"
 
 #. module: stock_picking_import_serial_number
 #. odoo-python
 #: code:addons/stock_picking_import_serial_number/wizard/import_serial_number_wizard.py:0
 #, python-format
 msgid "You must upload file to import records"
-msgstr ""
+msgstr "Kayıtları içe aktarmak için dosya yüklemeniz gerekir"
 
 #. module: stock_picking_import_serial_number
 #. odoo-python
@@ -187,3 +190,5 @@ msgstr ""
 msgid ""
 "You only can import S/N for picking operations with creation lots checked"
 msgstr ""
+"Yalnızca oluşturma lotları işaretli toplama işlemleri için S/N'yi içe "
+"aktarabilirsiniz"
