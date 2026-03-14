@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [sale_line_returned_qty_mrp](sale_line_returned_qty_mrp/) | 18.0.1.0.0 |  | Track returned quantity of sale order lines for BoM products.
 [sale_order_global_stock_route](sale_order_global_stock_route/) | 18.0.1.0.0 |  | Add the possibility to choose one warehouse path for an order
 [sale_stock_picking_invoice_link](sale_stock_picking_invoice_link/) | 18.0.1.0.0 |  | Adds link between pickings and invoices
-[scrap_reason_code](scrap_reason_code/) | 18.0.1.0.0 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Reason code for scrapping
+[scrap_reason_code](scrap_reason_code/) | 18.0.1.0.1 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Reason code for scrapping
 [stock_account_product_run_fifo_hook](stock_account_product_run_fifo_hook/) | 18.0.1.0.1 |  | Add more flexibility in the run fifo method.
 [stock_account_show_automatic_valuation](stock_account_show_automatic_valuation/) | 18.0.1.0.0 |  | Allow automatic valuation for stock moves in community edition
 [stock_checkout_sync](stock_checkout_sync/) | 18.0.1.0.1 |  | Sync location for Checkout operations
@@ -58,8 +58,8 @@ addon | version | maintainers | summary
 [stock_move_line_qty_picked](stock_move_line_qty_picked/) | 18.0.1.3.1 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Separate quantity picked from the reserved quantity
 [stock_move_original_date](stock_move_original_date/) | 18.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | adds the Original Date Scheduled to stock moves.
 [stock_move_quantity_product_uom](stock_move_quantity_product_uom/) | 18.0.1.0.2 |  | computes stock.move's quantity in the uom of the product.
-[stock_move_source_relocate](stock_move_source_relocate/) | 18.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Change source location of unavailable moves
-[stock_move_source_relocate_dynamic_routing](stock_move_source_relocate_dynamic_routing/) | 18.0.1.0.1 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Glue module
+[stock_move_source_relocate](stock_move_source_relocate/) | 18.0.1.1.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Change source location of unavailable moves
+[stock_move_source_relocate_dynamic_routing](stock_move_source_relocate_dynamic_routing/) | 18.0.1.1.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Glue module
 [stock_no_negative](stock_no_negative/) | 18.0.1.0.2 |  | Disallow negative stock levels by default
 [stock_owner_restriction](stock_owner_restriction/) | 18.0.1.0.0 |  | Do not reserve quantity with assigned owner
 [stock_partner_delivery_window](stock_partner_delivery_window/) | 18.0.1.2.1 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Define preferred delivery time windows for partners
