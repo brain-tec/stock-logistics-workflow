@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* sale_stock_picking_invoice_link
+# 	* stock_picking_filter_lot
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-06-01 07:37+0000\n"
+"PO-Revision-Date: 2026-06-01 07:43+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -17,12 +17,12 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.15.2\n"
 
-#. module: sale_stock_picking_invoice_link
-#: model:ir.model,name:sale_stock_picking_invoice_link.model_sale_order_line
-msgid "Sales Order Line"
-msgstr "Prodajna postavka"
+#. module: stock_picking_filter_lot
+#: model:ir.model.fields,field_description:stock_picking_filter_lot.field_stock_lot__location_ids
+msgid "Locations"
+msgstr "Lokacije"
 
-#. module: sale_stock_picking_invoice_link
-#: model:ir.model,name:sale_stock_picking_invoice_link.model_stock_move
-msgid "Stock Move"
-msgstr "Premik zaloge"
+#. module: stock_picking_filter_lot
+#: model:ir.model,name:stock_picking_filter_lot.model_stock_lot
+msgid "Lot/Serial"
+msgstr "Lot/serijska št."

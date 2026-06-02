@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* sale_stock_picking_invoice_link
+# 	* purchase_stock_picking_invoice_link
 #
 msgid ""
 msgstr ""
@@ -17,12 +17,12 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.15.2\n"
 
-#. module: sale_stock_picking_invoice_link
-#: model:ir.model,name:sale_stock_picking_invoice_link.model_sale_order_line
-msgid "Sales Order Line"
-msgstr "Prodajna postavka"
+#. module: purchase_stock_picking_invoice_link
+#: model:ir.model,name:purchase_stock_picking_invoice_link.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Postavka nabavnega naloga"
 
-#. module: sale_stock_picking_invoice_link
-#: model:ir.model,name:sale_stock_picking_invoice_link.model_stock_move
+#. module: purchase_stock_picking_invoice_link
+#: model:ir.model,name:purchase_stock_picking_invoice_link.model_stock_move
 msgid "Stock Move"
 msgstr "Premik zaloge"
