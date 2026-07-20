@@ -31,7 +31,7 @@ addon | version | maintainers | summary
 [delivery_procurement_group_carrier](delivery_procurement_group_carrier/) | 18.0.1.0.3 |  | Delivery Procurement Group Carrier
 [delivery_total_weight_from_packaging](delivery_total_weight_from_packaging/) | 18.0.1.1.0 |  | Include packaging weight on move, transfer and package.
 [procurement_auto_create_group_carrier](procurement_auto_create_group_carrier/) | 18.0.1.0.0 |  | Procurement Auto Create Group Carrier
-[product_cost_price_avco_sync](product_cost_price_avco_sync/) | 18.0.1.0.0 | <a href='https://github.com/carlosdauden'><img src='https://github.com/carlosdauden.png' width='32' height='32' style='border-radius:50%;' alt='carlosdauden'/></a> <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Set product cost price from updated moves
+[product_cost_price_avco_sync](product_cost_price_avco_sync/) | 18.0.1.0.1 | <a href='https://github.com/carlosdauden'><img src='https://github.com/carlosdauden.png' width='32' height='32' style='border-radius:50%;' alt='carlosdauden'/></a> <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Set product cost price from updated moves
 [product_customerinfo_picking](product_customerinfo_picking/) | 18.0.1.0.0 |  | This module makes the product customer code visible in the stock moves of a picking.
 [purchase_stock_picking_invoice_link](purchase_stock_picking_invoice_link/) | 18.0.2.0.0 |  | Adds link between purchases, pickings and invoices
 [sale_line_returned_qty](sale_line_returned_qty/) | 18.0.1.0.0 |  | Track returned quantity of sale order lines.
@@ -106,6 +106,7 @@ addon | version | maintainers | summary
 [stock_picking_propagate_scheduled_date](stock_picking_propagate_scheduled_date/) | 18.0.1.0.0 |  | Propagate Stock Picking Scheduled Date
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 18.0.1.1.0 |  | Link between picking and purchase order
 [stock_picking_restrict_cancel_printed](stock_picking_restrict_cancel_printed/) | 18.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Prevent canceling a stock transfer if printed.
+[stock_picking_restrict_cancel_with_orig_move](stock_picking_restrict_cancel_with_orig_move/) | 18.0.1.0.0 |  | Restrict cancellation of dest moves according to origin.
 [stock_picking_restrict_partial_validation](stock_picking_restrict_partial_validation/) | 18.0.1.0.0 |  | Block validation of transfers that are not fully reserved and processed in full
 [stock_picking_return_lot](stock_picking_return_lot/) | 18.0.1.0.0 |  | Propagate SN/lots from origin picking to return picking.
 [stock_picking_return_restricted_qty](stock_picking_return_restricted_qty/) | 18.0.1.0.0 |  | Restrict the return to delivered quantity
