@@ -50,6 +50,7 @@ addon | version | maintainers | summary
 [stock_dynamic_routing_delivery](stock_dynamic_routing_delivery/) | 18.0.1.1.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Glue module between stock dynamic routing and delivery
 [stock_dynamic_routing_delivery_procurement_group_carrier](stock_dynamic_routing_delivery_procurement_group_carrier/) | 18.0.1.1.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Use the carrier set on the procurement group for propagation
 [stock_dynamic_routing_reserve_rule](stock_dynamic_routing_reserve_rule/) | 18.0.1.0.0 |  | Glue module between dynamic routing and reservation rules
+[stock_landed_costs_currency](stock_landed_costs_currency/) | 18.0.1.0.0 |  | Stock Landed Costs Currency
 [stock_landed_costs_priority](stock_landed_costs_priority/) | 18.0.1.0.0 |  | Add priority to landed costs
 [stock_landed_costs_purchase_auto](stock_landed_costs_purchase_auto/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock landed costs purchase auto
 [stock_lock_lot](stock_lock_lot/) | 18.0.1.0.0 |  | Stock Lock Lot
@@ -103,6 +104,7 @@ addon | version | maintainers | summary
 [stock_picking_kind](stock_picking_kind/) | 18.0.1.0.0 |  | Computes the kind of picking based on locations
 [stock_picking_line_sequence](stock_picking_line_sequence/) | 18.0.1.0.1 |  | Manages the order of stock moves by displaying its sequence
 [stock_picking_mass_action](stock_picking_mass_action/) | 18.0.1.0.0 |  | Stock Picking Mass Action
+[stock_picking_move_package_to_package](stock_picking_move_package_to_package/) | 18.0.1.0.0 |  | Move entire package to another package
 [stock_picking_operation_quick_change](stock_picking_operation_quick_change/) | 18.0.1.0.0 |  | Change location of all picking operations
 [stock_picking_origin_reference](stock_picking_origin_reference/) | 18.0.1.0.0 |  | Add clickable button to the Transfer Source Document.
 [stock_picking_origin_reference_purchase](stock_picking_origin_reference_purchase/) | 18.0.1.0.0 |  | Transfer to Purchase Order navigation from the Source Document.
