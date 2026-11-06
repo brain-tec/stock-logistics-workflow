@@ -72,7 +72,7 @@ addon | version | maintainers | summary
 [stock_no_negative](stock_no_negative/) | 18.0.1.0.2 |  | Disallow negative stock levels by default
 [stock_override_procurement](stock_override_procurement/) | 18.0.1.0.0 |  | This technical module allow to override procurement values
 [stock_owner_restriction](stock_owner_restriction/) | 18.0.1.0.1 |  | Do not reserve quantity with assigned owner
-[stock_partner_delivery_window](stock_partner_delivery_window/) | 18.0.1.2.1 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Define preferred delivery time windows for partners
+[stock_partner_delivery_window](stock_partner_delivery_window/) | 18.0.1.3.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Define preferred delivery time windows for partners
 [stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 18.0.2.0.0 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Auto create lots for incoming pickings
 [stock_picking_auto_create_lot_sequence](stock_picking_auto_create_lot_sequence/) | 18.0.1.0.1 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Stock Picking Auto Create Lot Sequence
 [stock_picking_auto_create_package](stock_picking_auto_create_package/) | 18.0.1.1.0 |  | Put all move lines in packs on validation.
@@ -142,7 +142,7 @@ addon | version | maintainers | summary
 [stock_scrap_cancel](stock_scrap_cancel/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Scrap Cancel
 [stock_scrap_security](stock_scrap_security/) | 18.0.1.0.0 |  | Manage stock scrap access rights with dedicated security groups.
 [stock_scrap_tier_validation](stock_scrap_tier_validation/) | 18.0.1.0.0 |  | Stock Scrap Tier Validation
-[stock_split_picking](stock_split_picking/) | 18.0.2.1.0 |  | Split a picking in two not transferred pickings
+[stock_split_picking](stock_split_picking/) | 18.0.2.1.1 |  | Split a picking in two not transferred pickings
 [stock_split_picking_dimension](stock_split_picking_dimension/) | 18.0.1.0.0 |  | Split a picking in two not transferred pickings to ensure that the first one doesn't exceed given dimensions (nbr lines, volume, weight)
 [stock_split_picking_kit](stock_split_picking_kit/) | 18.0.1.0.1 |  | Split a picking by a number of kits.
 [stock_valuation_layer_usage](stock_valuation_layer_usage/) | 18.0.1.0.0 |  | Trace where has the stock valuation been used in, including the quantities taken.
